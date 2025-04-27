@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weatherly</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="clouds">
+    <div class="cloud cloud-1">
+      <div class="circle small"></div>
+      <div class="circle medium"></div>
+      <div class="circle large"></div>
+    </div>
+
+    <div class="cloud cloud-2">
+      <div class="circle medium"></div>
+      <div class="circle large"></div>
+      <div class="circle small"></div>
+    </div>
+
+    <div class="cloud cloud-3">
+      <div class="circle large"></div>
+      <div class="circle small"></div>
+      <div class="circle medium"></div>
+    </div>
+
+    <div class="cloud cloud-4">
+      <div class="circle large"></div>
+      <div class="circle small"></div>
+      <div class="circle medium"></div>
+    </div>
+
+    <div class="cloud cloud-5">
+      <div class="circle large"></div>
+      <div class="circle small"></div>
+      <div class="circle medium"></div>
+    </div>
+  </div>
+
+  <button id="dark-mode-toggle">🌙 Dark Mode</button>
+  <div class="container">
+    <h1>Weatherly</h1>
+    <div class="search-box">
+      <input type="text" id="city-input" placeholder="Enter city name...">
+      <button onclick="getWeather()">Search</button>
+    </div>
+    <div id="weather-result" class="weather-card">
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
